@@ -6,16 +6,16 @@ import Navbar from 'react-bootstrap/Navbar'
 
 // TODO: Add a comment explaining how we are able to extract the key value pairs from props
 // deconstructing from NavTabs component 
-function NavTabs() {
+function NavTabs({ handlePageChange}) {
   return (
     <Navbar bg="dark" variant="dark">
     <Container>
     <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
     <Nav className="me-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#work">Work</Nav.Link>
-      <Nav.Link href="#contact">Contact</Nav.Link>
-      <Nav.Link href="#resume">Resume</Nav.Link>
+      <Nav.Link href="#about" onClick={() => handlePageChange('About')}>About</Nav.Link>
+      <Nav.Link href="#work" onClick={() => handlePageChange('Work')}>Work</Nav.Link>
+      <Nav.Link href="#contact" onClick={() => handlePageChange('Contact')}>Contact</Nav.Link>
+      <Nav.Link href="#resume" onClick={() => handlePageChange('Resume')}>Resume</Nav.Link>
     </Nav>
     </Container>
   </Navbar>
