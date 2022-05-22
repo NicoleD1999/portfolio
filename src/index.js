@@ -2,9 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles/Body.css';
 
-document.body.style = 'background: #01161E';
+document.body.style = 'background: #a4c3b2';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

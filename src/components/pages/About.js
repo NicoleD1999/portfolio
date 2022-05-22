@@ -1,5 +1,6 @@
 import React from 'react';
 import portfolioImage from '../../assets/6EA60512-B97F-4594-AB25-7BFC406E266E.jpeg'
+import Button from 'react-bootstrap/Button';
 
 const styles = {
     image: {
@@ -19,30 +20,13 @@ const styles = {
     head: {
         marginLeft: 20,
     },
-    list: {
-        background: '#AEC3B0',
-        marginLeft: 40,
-        marginRight: 40,
-        marginBottom: 20,
-        fontSize: 20,
-        borderRadius: 20,
-        padding: 10,
-        fontWeight: 'bold',
-        color: '#01161E'
-    }
 }
 
 
 export default function About() {
-    const list = ['JavaScript', 'HTML', 'CSS', 'CSS Frameworks (Bootstrap)', 'JQuery', 'ReactJS', 'NodeJS', 'MySQL', 'Express.js', 'MongoDB (mongoose)'];
 
-    const items = []
-  
-    for (const [index, value] of list.entries()) {
-      items.push(<li key={index}>{value}</li>)
-    }
   return (
-    <div style={{color: '#AEC3B0'}}>
+    <div style={{color: '#0a0908', marginLeft:10}}>
       <h1 style={{marginLeft: 10}}>About Me</h1>
       <hr></hr>
       <img src={portfolioImage} alt='portfolio' style={styles.image}/>
@@ -54,14 +38,10 @@ export default function About() {
         Thank you for visiting my portfolio. My name is Ozzie and I am a Junior Web Developer based out of Eden Prairie, Minnesota. 
         I attended a full-stack coding bootcamp offered by The University of Minnesota and graduated on June 6th. I am currently looking
         for work as either a Front-End Developer or Back-End Developer. Please feel free to view my work to have a better understanding of 
-        my abilites and progress. If you have any questions or would like to contact me please click the contact tab to send me an e-mail.
-        I check my e-mail on a daily basis and tend to respond within a few hours. Below you will find a list of things I am proficient at,
-        thank you for your intrest and I hope to be in touch with you soon.
+        my abilites and progress. If you would like to get in touch with me please feel free to send me an e-mail. I check my e-mails on a daily basis
+        and typically respond within a few hours. Thank you for your interest and I hope to be in touch with you soon.
       </p>
-      <ul style={styles.list}>
-          <h3>Proficiencies</h3>
-          {items}
-      </ul>
+      <Button variant="outline-dark" style={{marginLeft: 40}}>✉ nmd1018@yahoo.com</Button>{' '}
     </div>
   );
 }

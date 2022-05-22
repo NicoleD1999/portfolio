@@ -4,11 +4,10 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 
 
-// TODO: Add a comment explaining how we are able to extract the key value pairs from props
-// deconstructing from NavTabs component 
+
 function NavTabs({ handlePageChange}) {
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar style={{background: '#6b9080'}}>
     <Container>
     <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
     <Nav className="me-auto">
