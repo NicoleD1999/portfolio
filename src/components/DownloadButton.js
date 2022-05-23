@@ -4,7 +4,7 @@ const Download = props => {
       window.location.href = "https://drive.google.com/file/d/1KS1QRrAqgKrqFgifA1_QhkfVa_AZ-2q9/view"
     }
     return (
-          <a onClick={downloadFile}><u>Here</u></a>
+          <a onClick={downloadFile}></a>
     )
   }
   export default Download;
