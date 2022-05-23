@@ -1,6 +1,7 @@
 import React from 'react';
 import portfolioImage from '../../assets/6EA60512-B97F-4594-AB25-7BFC406E266E.jpeg'
 import Button from 'react-bootstrap/Button';
+import '../../styles.css'
 
 const styles = {
     image: {
@@ -16,9 +17,11 @@ const styles = {
         marginRight: 500,
         marginLeft: 40,
         fontSize: 25,
+        fontFamily: 'Playfair Display serif'
     },
     head: {
         marginLeft: 20,
+        fontFamily: 'Merriweather serif'
     },
 }
 
@@ -27,7 +30,7 @@ export default function About() {
 
   return (
     <div style={{color: '#0a0908', marginLeft:10}}>
-      <h1 style={{marginLeft: 10}}>About Me</h1>
+      <h1 style={{marginLeft: 10, fontFamily: 'Merriweather serif', fontSize: 45, marginTop: 10}}>About Me</h1>
       <hr></hr>
       <img src={portfolioImage} alt='portfolio' style={styles.image}/>
       <div style={styles.head}>

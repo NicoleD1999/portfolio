@@ -14,11 +14,11 @@ export default function Work() {
 
   return (
   <div>
-  <h1 style={{color:'#0a0908', marginLeft:20 }}>Portfolio</h1>
+  <h1 style={{color:'#0a0908', marginLeft:20, fontFamily: 'Merriweather serif', fontSize: 45, marginTop: 10 }}>Portfolio</h1>
   <hr></hr>
   <Container>
     <Carousel fade style={{marginTop:20, marginBottom:20}}>
-      <Carousel.Item>
+      <Carousel.Item interval={5000}>
         <img
         className="d-block w-100"
         src={dailyPlanner}
@@ -29,7 +29,7 @@ export default function Work() {
         <p>Allows the user to organize their day by entering in tasks that need to be completed at a certain time. background colors indicate hours that have passed, the current hour, and approaching hours. Click <a href="https://nicoled1999.github.io/daily-planner/" id="here">here</a> to visit my website. Click <a href="https://github.com/NicoleD1999/daily-planner" id="here">here</a> to visit the github repo.</p>
       </Carousel.Caption>
     </Carousel.Item>
-  <Carousel.Item>
+  <Carousel.Item interval={5000}>
     <img
       className="d-block w-100"
       src={animeSearch}
@@ -41,7 +41,7 @@ export default function Work() {
       <p>My first group project. Created to allow both new and seasoned anime fans the ability to search for new anime. Click <a href="https://nicoled1999.github.io/project-1/" id="here">here</a> to visit the website. Click <a href="https://github.com/NicoleD1999/project-1" id="here">here</a> to visit the github repo.</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item>
+  <Carousel.Item interval={5000}>
     <img
       className="d-block w-100"
       src={bcForum}
@@ -53,7 +53,7 @@ export default function Work() {
       <p>My second group project. Created to allow graduates of coding bootcamp or people interested in coding bootcamp a platform to communicate on and share their experiences. Click <a href="https://quiet-inlet-26349.herokuapp.com/" id="here">here</a> to visit the website. Click <a href="https://github.com/midth002/bootcamp-forum" id="here">here</a> to visit the github repo.</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item>
+  <Carousel.Item interval={5000}>
     <img
       className="d-block w-100"
       src={weatherDash}
@@ -65,7 +65,7 @@ export default function Work() {
       <p>Allows the user to search both the current weather in any city in the U.S. as well as a 5 day forecast for that city. Click <a href="https://nicoled1999.github.io/weather-dashboard/" id="here">here</a> to visit my website. Click <a href="https://github.com/NicoleD1999/weather-dashboard" id="here">here</a> to visit the github repo.</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item>
+  <Carousel.Item interval={5000}>
     <img
       className="d-block w-100"
       src={empTracker}
@@ -77,7 +77,7 @@ export default function Work() {
       <p>A back-end only application using prompt to allow the user to keep track of and add employees, roles, and departments. Click <a href="https://github.com/NicoleD1999/employee-tracker" id="here">here</a> to visit the github repo.</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item>
+  <Carousel.Item interval={5000}>
     <img
       className="d-block w-100"
       src={passGen}

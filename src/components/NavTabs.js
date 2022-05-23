@@ -10,7 +10,7 @@ function NavTabs({ handlePageChange}) {
   return (
     <Navbar style={{background: '#6b9080'}}>
     <Container>
-    <Navbar.Brand href="#home"><img src={Logo} style={{width:180, heigth:80, marginLeft: -110}}/></Navbar.Brand>
+    <Navbar.Brand href="#home"><img src={Logo} style={{width:180, heigth:80, marginLeft: -110}} alt="Logo"/></Navbar.Brand>
     <Nav className="me-auto" style={{fontWeight: 'bold'}}>
       <Nav.Link href="#about" onClick={() => handlePageChange('About')}>About</Nav.Link>
       <Nav.Link href="#work" onClick={() => handlePageChange('Work')}>Work</Nav.Link>
