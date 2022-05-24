@@ -11,10 +11,10 @@ export default function Resume() {
       <h1 style={{fontFamily: 'Merriweather serif', fontSize: 45, marginTop: 10}}>Resume</h1>
       <hr></hr>
       <h5>Click Arrow to Download Resume <Download/></h5>
-      <div className="iFrameContainer">
-      <iframe  className="iFrameChild"   src="https://docs.google.com/document/d/e/2PACX-1vQqhtiEa_2driMSWbfs4RSUnxDVnCwRhfuoQ9HPOR5of00-AqvHpSs3CrGXNfaivA/pub?embedded=true" title="Resume"></iframe>
+      <div style={{display: 'flex', flexWrap: 'wrap'}}>
+      <iframe  className="iFrameChild"  style={{width: 850, height: 500, marginBottom: 10, marginRight: 10}} src="https://docs.google.com/document/d/e/2PACX-1vQqhtiEa_2driMSWbfs4RSUnxDVnCwRhfuoQ9HPOR5of00-AqvHpSs3CrGXNfaivA/pub?embedded=true" title="Resume"></iframe>
+      <InlineWidget url="https://calendly.com/nmd1018" styles={{height: 500, width: 600, marginLeft: 10, marginRight: 10}}/>
       </div>
-      <InlineWidget url="https://calendly.com/nmd1018" styles={{height: 500, width: 500, position: 'absolute', left: 980, bottom: 10}}/>
     </div>
   );
 }
