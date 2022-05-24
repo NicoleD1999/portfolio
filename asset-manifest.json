@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a530c790.css",
-    "main.js": "/portfolio/static/js/main.43b45bfe.js",
-    "static/media/ANIMEsearch.png": "/portfolio/static/media/ANIMEsearch.1a606adaf89103a29ed4.png",
-    "static/media/6EA60512-B97F-4594-AB25-7BFC406E266E.jpeg": "/portfolio/static/media/6EA60512-B97F-4594-AB25-7BFC406E266E.aa35e1ec6e1c54d3836e.jpeg",
-    "static/media/Weather-Dashboard.png": "/portfolio/static/media/Weather-Dashboard.b8f0da4674b56f6a6a63.png",
-    "static/media/logo_transparent_background.png": "/portfolio/static/media/logo_transparent_background.aa586f7eb75d4ec20811.png",
-    "static/media/employee-tracker.png": "/portfolio/static/media/employee-tracker.16ac9f6f50884d202252.png",
-    "static/media/bootcamp-forum.png": "/portfolio/static/media/bootcamp-forum.2c7cc1b3fb5b6624fe59.png",
-    "static/media/Daily-Planner.png": "/portfolio/static/media/Daily-Planner.42cce4c0ef9c4eb66c85.png",
-    "static/media/Password-Generator.png": "/portfolio/static/media/Password-Generator.e91edc9aa804c5a47bb0.png",
-    "index.html": "/portfolio/index.html",
-    "main.a530c790.css.map": "/portfolio/static/css/main.a530c790.css.map",
-    "main.43b45bfe.js.map": "/portfolio/static/js/main.43b45bfe.js.map"
+    "main.css": "/www.ozzie-dahl-portfolio.com/static/css/main.a530c790.css",
+    "main.js": "/www.ozzie-dahl-portfolio.com/static/js/main.7aa49b6f.js",
+    "static/media/ANIMEsearch.png": "/www.ozzie-dahl-portfolio.com/static/media/ANIMEsearch.1a606adaf89103a29ed4.png",
+    "static/media/6EA60512-B97F-4594-AB25-7BFC406E266E.jpeg": "/www.ozzie-dahl-portfolio.com/static/media/6EA60512-B97F-4594-AB25-7BFC406E266E.aa35e1ec6e1c54d3836e.jpeg",
+    "static/media/Weather-Dashboard.png": "/www.ozzie-dahl-portfolio.com/static/media/Weather-Dashboard.b8f0da4674b56f6a6a63.png",
+    "static/media/logo_transparent_background.png": "/www.ozzie-dahl-portfolio.com/static/media/logo_transparent_background.aa586f7eb75d4ec20811.png",
+    "static/media/employee-tracker.png": "/www.ozzie-dahl-portfolio.com/static/media/employee-tracker.16ac9f6f50884d202252.png",
+    "static/media/bootcamp-forum.png": "/www.ozzie-dahl-portfolio.com/static/media/bootcamp-forum.2c7cc1b3fb5b6624fe59.png",
+    "static/media/Daily-Planner.png": "/www.ozzie-dahl-portfolio.com/static/media/Daily-Planner.42cce4c0ef9c4eb66c85.png",
+    "static/media/Password-Generator.png": "/www.ozzie-dahl-portfolio.com/static/media/Password-Generator.e91edc9aa804c5a47bb0.png",
+    "index.html": "/www.ozzie-dahl-portfolio.com/index.html",
+    "main.a530c790.css.map": "/www.ozzie-dahl-portfolio.com/static/css/main.a530c790.css.map",
+    "main.7aa49b6f.js.map": "/www.ozzie-dahl-portfolio.com/static/js/main.7aa49b6f.js.map"
   },
   "entrypoints": [
     "static/css/main.a530c790.css",
-    "static/js/main.43b45bfe.js"
+    "static/js/main.7aa49b6f.js"
   ]
 }
