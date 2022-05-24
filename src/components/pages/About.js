@@ -1,4 +1,5 @@
 import React from 'react';
+import Resume from './Resume'
 import portfolioImage from '../../assets/6EA60512-B97F-4594-AB25-7BFC406E266E.jpeg'
 import Button from 'react-bootstrap/Button';
 import '../../styles.css'
@@ -26,7 +27,7 @@ const styles = {
 }
 
 
-export default function About() {
+export default function About({handlePageChange}) {
 
   return (
     <div style={{color: '#0a0908', marginLeft:10}}>
@@ -44,7 +45,7 @@ export default function About() {
         my abilites and progress. If you would like to get in touch with me please feel free to send me an e-mail. I check my e-mails on a daily basis
         and typically respond within a few hours. Thank you for your interest and I hope to be in touch with you soon.
       </p>
-      <Button variant="outline-dark" style={{marginLeft: 40}}>✉ nmd1018@yahoo.com</Button>{' '}
+      <Button variant="outline-dark" style={{marginLeft: 40}} onClick={() => handlePageChange('Contact')} >✉ nmd1018@yahoo.com</Button>{' '}
     </div>
   );
 }

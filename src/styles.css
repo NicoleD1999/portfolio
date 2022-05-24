@@ -1,1 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Playfair+Display&family=Roboto:wght@100&display=swap');
+
+.iFrameContainer {
+    width: 1000px;
+    overflow: hidden;
+  }
+  
+  .iFrameChild {
+    width: 900%;
+    height: 600px;
+    overflow: auto;
+  }
+  
