@@ -12,6 +12,7 @@ const styles = {
         position: 'relative',
         top: 5,
         marginRight: 20,
+        marginLeft: 20,
         float: 'right',
     },
     paragraph: {
