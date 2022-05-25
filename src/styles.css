@@ -1,3 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Playfair+Display&family=Roboto:wght@100&display=swap');
 
+.paragraph {
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}
+
+
   

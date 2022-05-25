@@ -20,6 +20,7 @@ const styles = {
         fontSize: 25,
         fontFamily: 'Playfair Display serif'
     },
+
     head: {
         marginLeft: 20,
         fontFamily: 'Merriweather serif'
@@ -32,13 +33,13 @@ export default function About({handlePageChange}) {
   return (
     <div style={{color: '#0a0908', marginLeft:10}}>
       <h1 style={{marginLeft: 10, fontFamily: 'Merriweather serif', fontSize: 45, marginTop: 10}}>About Me</h1>
-      <hr></hr>
+      <hr style={{marginRight: 10}}></hr>
       <img src={portfolioImage} alt='portfolio' style={styles.image}/>
       <div style={styles.head}>
         <h1>Ozzie Dahl</h1>
         <h4>Jr. Web Developer</h4>
      </div>
-      <p style={styles.paragraph}>
+      <p className='paragraph'>
         Thank you for visiting my portfolio. My name is Ozzie and I am a Junior Web Developer based out of Eden Prairie, Minnesota. 
         I attended a full-stack coding bootcamp offered by The University of Minnesota and graduated on June 6th. I am currently looking
         for work as either a Front-End Developer or Back-End Developer. Please feel free to view my work to have a better understanding of 
